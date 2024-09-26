@@ -17,6 +17,33 @@ For workflows, change the name of the repo listed in the img.shields link to poi
 
 Your overview should contain a brief summary of the project, and figures and examples showing input and output. 
 
+## How to reproduce the results of the paper
+
+The config settings for the models used in the paper can be found in `src/utils/defaults.py`.
+
+The user should run the following commands from the cli:
+> python src/scripts/DeepEnsemble.py --save_all_checkpoints --noise_level "low"
+
+The noise level argument should be modified to run the medium and high settings as well.
+
+Repeat for the DER:
+> python src/scripts/DeepEvidentialRegression.py --save_all_checkpoints --noise_level "low"
+
+Next run the analysis scripts:
+> python src/scripts/AleatoricandEpistemic.py
+
+> python src/scripts/LossFunctions.py
+
+> python src/scripts/ParitySigma.py
+
+To reproduce the random initialization runs for the DER (these already exist for the DE):
+> python src/scripts/DeepEvidentialRegression.py --save_all_checkpoints --noise_level "low" --save_chk_random_seed_init --rs 10
+
+Change the value of the random seed to match those given in the `src/scripts/Aleatoric_and_inits.py` script.
+
+Finally:
+> python src/scripts/Aleatoric_and_inits.py
+
 ## Installation 
 Information about install. 
 We recommend publishing to pypi using a poetry package management system (described below) but we also provide instructions for using python virtual environments and showyourwork with conda integration. 
