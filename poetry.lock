@@ -818,6 +818,26 @@ pyyaml = ">=6.0,<7.0"
 scikit-image = ">=0.23.0,<0.24.0"
 
 [[package]]
+name = "deepuq"
+version = "0.1.1"
+description = "a package for investigating and comparing the predictive uncertainties from deep learning models"
+optional = false
+python-versions = "<3.11,>=3.10"
+files = [
+    {file = "deepuq-0.1.1-py3-none-any.whl", hash = "sha256:d0556428fd5c22f5278f6546a7bdde6bdaeec51d9e02924cb5a5cd0d0ba71d09"},
+    {file = "deepuq-0.1.1.tar.gz", hash = "sha256:3540e106dae64fdb5237cf73d6c7fb044c5a974ac6c91ee699af670847deafb2"},
+]
+
+[package.dependencies]
+deepbench = ">=0.2.3,<0.3.0"
+h5py = ">=3.10.0,<4.0.0"
+jupyter = ">=1.0.0,<2.0.0"
+matplotlib = ">=3.7.1,<4.0.0"
+scikit-learn = ">=1.3.0,<2.0.0"
+seaborn = ">=0.12.2,<0.13.0"
+torch = ">=2.0.1,<3.0.0"
+
+[[package]]
 name = "defusedxml"
 version = "0.7.1"
 description = "XML bomb protection for Python stdlib modules"
@@ -3916,4 +3936,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.10,<3.11"
-content-hash = "a0041651796172cd4fdf09111bba8baf7ab724b49d9d59ef5add389d1c54a4f4"
+content-hash = "a1bf0bfe8ac610107ebf53427bab1add905b440183d905dca434f989a8cc65c0"

@@ -15,6 +15,7 @@ seaborn = "^0.12.2"
 torch = "^2.0.1"
 h5py = "^3.10.0"
 deepbench = "^0.2.3"
+deepuq = "^0.1.1"
 
 [tool.poetry.group.dev.dependencies]
 pytest-cov = "^4.1.0"
