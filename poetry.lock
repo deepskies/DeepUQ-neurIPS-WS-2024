@@ -819,13 +819,13 @@ scikit-image = ">=0.23.0,<0.24.0"
 
 [[package]]
 name = "deepuq"
-version = "0.1.4"
+version = "0.1.6"
 description = "a package for investigating and comparing the predictive uncertainties from deep learning models"
 optional = false
 python-versions = "<3.11,>=3.10"
 files = [
-    {file = "deepuq-0.1.4-py3-none-any.whl", hash = "sha256:e5d09e270603bedd1ba6a76f30c78fc87dda2c16e8022a86cc7562eec0ee82bd"},
-    {file = "deepuq-0.1.4.tar.gz", hash = "sha256:982f099af669377042387ad41d616e7e83899eb706a81ce2556d15ed242c03b6"},
+    {file = "deepuq-0.1.6-py3-none-any.whl", hash = "sha256:d8c949a35a219fad6eee8735f855482193ce639557a64194dd06dcaf7bc1d2f7"},
+    {file = "deepuq-0.1.6.tar.gz", hash = "sha256:2d97b64a60c204a52a6c785a9d800f9799d35b84ce2ce76a6d82a534042052a8"},
 ]
 
 [package.dependencies]
