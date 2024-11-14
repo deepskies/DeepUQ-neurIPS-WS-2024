@@ -1,5 +1,5 @@
 # DeepUQ neurIPS ML4PS Paper 2024 
-This repo demonstrates how to use the [DeepUQ](https://pypi.org/project/deepuq/) software to reproduce the results of the Nevin+2024 neurIPS workshop paper "DeepUQ: Assessing the Aleatoric Uncertainties from two Deep Learning Methods"
+This repo demonstrates how to use the [DeepUQ](https://pypi.org/project/deepuq/) software to reproduce the results of the Nevin+2024 neurIPS workshop paper "DeepUQ: Assessing the Aleatoric Uncertainties from two Deep Learning Methods" [arXiv link](https://arxiv.org/abs/2411.08587)
 
 
 ## How to reproduce the results of the paper
@@ -28,17 +28,21 @@ Now you have access to all the dependencies necessary to run the package.
 
 
 ## Citation 
-Include a link to your bibtex citation for others to use. 
-
 ```
-@article{key , 
-    author = {You :D}, 
-    title = {title}, 
-    journal = {journal}, 
-    volume = {v}, 
-    year = {20XX}, 
-    number = {X}, 
-    pages = {XX--XX}
+@ARTICLE{2024arXiv241108587N,
+       author = {{Nevin}, Rebecca and {{\'C}iprijanovi{\'c}}, Aleksandra and {Nord}, Brian D.},
+        title = "{DeepUQ: Assessing the Aleatoric Uncertainties from two Deep Learning Methods}",
+      journal = {arXiv e-prints},
+     keywords = {Computer Science - Machine Learning, Computer Science - Artificial Intelligence},
+         year = 2024,
+        month = nov,
+          eid = {arXiv:2411.08587},
+        pages = {arXiv:2411.08587},
+archivePrefix = {arXiv},
+       eprint = {2411.08587},
+ primaryClass = {cs.LG},
+       adsurl = {https://ui.adsabs.harvard.edu/abs/2024arXiv241108587N},
+      adsnote = {Provided by the SAO/NASA Astrophysics Data System}
 }
 
 ```
