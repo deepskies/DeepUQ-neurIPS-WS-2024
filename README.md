@@ -1,5 +1,5 @@
 # DeepUQ neurIPS ML4PS Paper 2024 
-This repo demonstrates how to use the [DeepUQ](https://pypi.org/project/deepuq/) software to reproduce the results of the Nevin+2024 neurIPS workshop paper "DeepUQ: Assessing the Aleatoric Uncertainties from two Deep Learning Methods" [arXiv link](https://arxiv.org/abs/2411.08587)
+This repo demonstrates how to use the [DeepUQ](https://pypi.org/project/deepuq/) software to reproduce the results of the Nevin+2024 neurIPS workshop paper ["DeepUQ: Assessing the Aleatoric Uncertainties from two Deep Learning Methods"](https://arxiv.org/abs/2411.08587)
 
 
 ## How to reproduce the results of the paper
